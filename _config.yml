@@ -1,43 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+---
+gems:
+- jekyll-archives
+- jekyll-sitemap
+- jekyll-paginate
+exclude:
+- "/vendor/"
+title: Centrarium
+subtitle: A simple yet classy theme for your Jekyll website or blog
+email: hsm63746244@gmail.com
+name: Ben Centra
+description: 'A simple yet classy theme for your Jekyll website or blog.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
+'
+baseurl: ''
+url: http://Seongmun-Hong.github.io
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: false
+highlightjs_theme: monokai-sublime
+jekyll-archives:
+  enabled:
+  - categories
+  - tags
+  layout: archive
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
+descriptions:
+- cat: jekyll
+  desc: Posts describing Jekyll setup techniques.
+- cat: dummy
+  desc: Just some placeholder posts, lorem ipsum and the rest.
+social:
+- name: GitHub
+  icon: github
+  username: bencentra
+  url: https://github.com/Seongmun-Hong
+  desc: Fork me on GitHub
+  share: false
+protocols:
+  fb_image: "/assets/logo.png"
+  fb_image_width: 612
+  fb_image_height: 605
+  fb_image_type: image/png
+  twitter_image: "/assets/logo.png"
+  os_repo: https://github.com/bencentra/centrarium.com
+  os_rcs_type: git
+  os_src: git@github.com:bencentra/centrarium.com.git
