@@ -5,10 +5,10 @@ gems:
 - jekyll-paginate
 exclude:
 - "/vendor/"
-title: Centrarium
+title: Dev Blog
 subtitle: A simple yet classy theme for your Jekyll website or blog
-email: hsm63746244@gmail.com
-name: Ben Centra
+email: hsm63746244@@gmail.com
+name: Seongmun Hong
 description: 'A simple yet classy theme for your Jekyll website or blog.
 
 '
@@ -37,7 +37,7 @@ descriptions:
 social:
 - name: GitHub
   icon: github
-  username: bencentra
+  username: Seongmun-Hong
   url: https://github.com/Seongmun-Hong
   desc: Fork me on GitHub
   share: false
