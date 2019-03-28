@@ -1,55 +1,159 @@
----
-gems:
-- jekyll-archives
-- jekyll-sitemap
-- jekyll-paginate
-exclude:
-- "/vendor/"
-title: Dev Blog
-subtitle: A simple yet classy theme for your Jekyll website or blog
-email: hsm63746244@@gmail.com
-name: Seongmun Hong
-description: 'A simple yet classy theme for your Jekyll website or blog.
+title:            Seongmun's Dev Blog
+description:      "Seongmun's Dev Blog"
+logo:             logo.png
+share:            true
+dropcap:			true
+# Change url to your domain. Leave localhost server or blank when working locally.
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+url:        	  https://Seongmun-Hong.github.io
 
-'
-baseurl: ''
-url: http://Seongmun-Hong.github.io
-cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
-markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
-highlightjs_theme: monokai-sublime
+# Owner/author information
+owner:
+  name:            Seongmun-Hong
+  avatar:          Seongmun.jpeg
+  email:           hsm63746244@gmail.com
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:     Awesome Dude, Awesome Life
+  # Social networking links used in footer. Update and remove as you like.
+  #twitter:        hmfaysal
+  #facebook:       hmfaysal
+  github:          Seongmun-Hong
+  #instagram:      hmfaysal
+  # For Google Authorship https://plus.google.com/authorship
+  #google_plus:    https://plus.google.com/u/0/102602916593522619858
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-39365944-7
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: Featured Posts
+    url: /featured
+  - title: Categories
+    url: /categories
+  - title: About
+    url: /about
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Seoul
+future:      true
+highlighter: pygments
+markdown:    kramdown
+paginate:    5
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
 # Disqus
 discus-identifier: seongmun-hong
 
-jekyll-archives:
-  enabled:
-  - categories
-  - tags
-  layout: archive
-  permalinks:
-    category: "/category/:name/"
-    tag: "/tag/:name/"
-descriptions:
-- cat: jekyll
-  desc: Posts describing Jekyll setup techniques.
-- cat: dummy
-  desc: Just some placeholder posts, lorem ipsum and the rest.
-social:
-- name: GitHub
-  icon: github
-  username: Seongmun-Hong
-  url: https://github.com/Seongmun-Hong
-  desc: Fork me on GitHub
-  share: false
-protocols:
-  fb_image: "/assets/logo.png"
-  fb_image_width: 612
-  fb_image_height: 605
-  fb_image_type: image/png
-  twitter_image: "/assets/logo.png"
-  os_repo: https://github.com/bencentra/centrarium.com
-  os_rcs_type: git
-  os_src: git@github.com:bencentra/centrarium.com.git
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://hmfaysal.github.io/Notepad/'
+  relativeLinks: 'http://hmfaysal.github.io/Notepad/links.jsonp'
+  media: 'images'
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "Enter Post Description"
+      - name: "headline"
+        field:
+          element: "text"
+          label: "beadline"
+          placeholder: "Enter Post Headline"
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
+          options:
+            - name: "Personal"
+              value: personal
+            - name: "Engineering"
+              value: engineering
+            - name: "Physics"
+              value: physics
+            - name: "Psychology"
+              value: psychology
+            - name: "Interesting"
+              value: interesting
+            - name: "Web-Development"
+              value: webdevelopment
+          alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+      - name: "imagefeature"
+        field:
+          element: "text"
+          label: "Featured Image"
+          placeholder: "somefile.jpg"
+      - name: "mathjax"
+        field:
+          element: "checkbox"
+          label: "MathJax"
+          value: false
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured?"
+          value: false
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Comments"
+          value: false
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
