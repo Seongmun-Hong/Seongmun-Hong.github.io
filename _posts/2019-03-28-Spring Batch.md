@@ -6,7 +6,7 @@ headline: null
 modified: '2019-03-28'
 category: Spring
 tags:
-- jekyll
+- Spring
 imagefeature: null
 mathjax: null
 chart: null
@@ -93,4 +93,4 @@ Tasklet과  Reader & Processor & Writer 를 **분리**할 수 없습니다.
 
 3. active profile 에 mysql 추가 후 실행
 
-
+  

@@ -55,7 +55,7 @@ paginate_path: "page:num"
 permalink:   /:categories/:title
 
 # Disqus
-discus-identifier: seongmun-hong
+disqus_shortname: seongmun-hong
 
 kramdown:
   auto_ids: true
