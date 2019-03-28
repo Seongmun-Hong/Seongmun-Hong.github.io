@@ -33,6 +33,12 @@ layout: default
   {{ content }}
 </article>
 
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}
+
 {% if site.jekyll-archives %}
 {% if page.tags.size > 0 %}
 <section class="tags">

@@ -21,6 +21,9 @@ paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
 highlightjs_theme: monokai-sublime
+# Disqus
+discus-identifier: seongmun-hong
+
 jekyll-archives:
   enabled:
   - categories
