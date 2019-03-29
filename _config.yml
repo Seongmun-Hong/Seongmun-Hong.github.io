@@ -1,5 +1,5 @@
 title:            Seongmun's Dev Blog
-description:      "Seongmun's Dev Blog"
+description:      " "
 logo:             logo.png
 share:            true
 dropcap:			true
@@ -14,7 +14,7 @@ owner:
   avatar:          Seongmun.jpeg
   email:           hsm63746244@gmail.com
   # Use the coder's toolbox at https://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:     Awesome Dude, Awesome Life
+  description:     " "
   # Social networking links used in footer. Update and remove as you like.
   #twitter:        hmfaysal
   #facebook:       hmfaysal
