@@ -1,5 +1,5 @@
 ---
-title: Spring Batch
+title: Spring Batch - (2)
 layout: post
 description: null
 headline: null
@@ -18,7 +18,7 @@ featured: true
 
  - ERD  
 
-![ERD](data/batch_table_erd.png)  
+![ERD](/images/post/batch_table_erd.png) 
 
 
 #### 5-1. BATCH_JOB_INSTANCE
@@ -46,6 +46,7 @@ JOB_EXECUTION와 JOB_INSTANCE는 **부모-자식 관계**이다.
 
 
 #### 5-3. 정리
+
 
 |      -     |                          내용                          |
 |:------------:|:------------------------------------------------------------:|
