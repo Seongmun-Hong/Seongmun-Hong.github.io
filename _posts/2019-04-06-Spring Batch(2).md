@@ -43,19 +43,18 @@ JOB_EXECUTION와 JOB_INSTANCE는 **부모-자식 관계**이다.
 
 동일한 Job Parameter로 **2번 실행하여도** 같은 파라미터로 실행되었다는 **에러가 발생하지 않는다!**
 
-#### ! Spring Batch는 동일한 Job Parameter로 성공한 기록이 있을때만 재수행이 안된다.  
+### ! Spring Batch는 동일한 Job Parameter로 성공한 기록이 있을때만 재수행이 안된다.  
   
   
 #### 5-3. 정리
   
-{:.text-center }
 |      -     |                          내용                          |
 |:------------:|:------------------------------------------------------------:|
 |      JOB     |                          하나의 Spring Batch JOB              |
 | JOB_INSTANCE |           JOB Parameter 단위로 실행된 JOB INSTANCE           |
 | JOB_EXCUTION | JOB Parameter 단위로 실행된 JOB의 실행 내역들(1번 혹은 여러번) |
-{:.text-center }
-
+  
+  
 추가로 **BATCH_JOB_EXECUTION_PARAM**은 BATCH_JOB_EXECUTION 테이블이 생성될 당시에 입력 받은 **Job Parameter를 담고 있다.**
 
 
