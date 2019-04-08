@@ -43,9 +43,9 @@ JOB_EXECUTION와 JOB_INSTANCE는 **부모-자식 관계**이다.
 
 동일한 Job Parameter로 **2번 실행하여도** 같은 파라미터로 실행되었다는 **에러가 발생하지 않는다!**
 
-### ! Spring Batch는 동일한 Job Parameter로 성공한 기록이 있을때만 재수행이 안된다.  
+##### ! Spring Batch는 동일한 Job Parameter로 성공한 기록이 있을때만 재수행이 안된다.  
   
-  
+</br>
 #### 5-3. 정리
   
 |      -     |                          내용                          |
