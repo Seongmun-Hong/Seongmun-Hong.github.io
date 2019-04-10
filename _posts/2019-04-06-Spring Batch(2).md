@@ -48,6 +48,7 @@ JOB_EXECUTION와 JOB_INSTANCE는 **부모-자식 관계**이다.
   
 #### 정리
   
+{:.post-img}
 ![ERD](/images/post/batch_job_execution.png) 
   
     
