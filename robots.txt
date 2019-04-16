@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://seongmun-hong.github.io/sitemap.xml
