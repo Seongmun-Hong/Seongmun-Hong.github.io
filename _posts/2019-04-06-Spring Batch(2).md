@@ -12,6 +12,10 @@ mathjax: null
 chart: null
 comments: true
 featured: true
+lastmod : 2019-03-28 12:00:00
+sitemap :  
+   changefreq : daily
+   priority : 1.0
 ---
 
 ### JOB, JOB_INSTANCE, JOB_EXCUTION
