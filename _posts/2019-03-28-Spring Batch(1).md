@@ -1,5 +1,5 @@
 ---
-title: Spring Batch - (1) Spring Batch 및 실행
+title: Spring Batch - (1) Spring Batch란?
 layout: post
 description: null
 headline: null
