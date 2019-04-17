@@ -1,5 +1,5 @@
 ---
-title: Spring Batch - (2)
+title: Spring Batch - (2) JOB, JOB_INSTANCE, JOB_EXCUTION
 layout: post
 description: null
 headline: null
