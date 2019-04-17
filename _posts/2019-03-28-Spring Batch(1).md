@@ -4,9 +4,9 @@ layout: post
 description: null
 headline: null
 modified: '2019-03-28'
-category: Spring Batch
+category: Spring-Batch
 tags:
-- Spring, Spring Batch
+- Spring, Spring-Batch
 imagefeature: null
 mathjax: null
 chart: null
