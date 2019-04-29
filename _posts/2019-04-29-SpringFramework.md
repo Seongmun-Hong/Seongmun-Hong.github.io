@@ -27,16 +27,20 @@ Framework는 구조 품질을 보장
 Framework는 어플리케이션 구조 및 코드의 상당 부분을 제공하며, 개발자는 어플리케이션의 핵심 로직에 집중할 수 있다.
 
 ### 1-1. Library VS Framework  
- - 중요한 차이점은 "Inversion of Control"
+ - 중요한 차이점은 "**Inversion of Control**" (제어의 역전)
 
 #### Library
  - 클래스의 집합으로서 코드의 재사용성을 지원한다.
  - 제어의 주체는 개발자이다. (코드에서 Library 함수를 호출한다)
+
+  사용자가 라이브러리 함수를 호출  
   
 #### Framework  
  - 제어의 주체가 Framework이다.(프레임 워크에서 개발자의 코드를 호출한다 - 제어의 역전)  
  - Framework에서 기본적인 골격을 잡아놓았기 때문에 개발자는 제어의 흐름에 맞게 코드를 작성해 두면 Framework에서 호출한다.  
 
+  프레임워크가 개발자의 코드를 호출  
+  
 {:.post-img}
 ![LibraryVSFramework](/images/post/libraryVSframework.png) 
 
