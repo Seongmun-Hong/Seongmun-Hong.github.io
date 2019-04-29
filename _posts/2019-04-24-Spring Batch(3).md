@@ -18,7 +18,7 @@ sitemap :
    priority : 1.0
 ---
 
-### Spring Batch Job Flow
+# Spring Batch Job Flow
 
 Spring Batch의 Job을 구성 - Step이 존재  
 Step은 실제 Batch 작업을 수행하는 역할  
@@ -28,7 +28,7 @@ Step은 실제 Batch 작업을 수행하는 역할
   
 따라서 Batch는 **Job 내부의 Step들 간에 순서 혹은 처리 흐름을 제어할 필요성 존재**  
 
-#### 1. Next
+## 1. Next
 
 next()는 순차적으로 Step들 연결시킬때 사용  
 
@@ -47,7 +47,7 @@ public Job job() {
 
 step1 -> step2 -> stpe3 순으로 하나씩 실행
 
-#### 2. 특정 Batch Job만 실행
+## 2. 특정 Batch Job만 실행
 
 여러개의 Batch Job이 존재할 경우 특정한 Batch Job 만 실행하기 위하여  
 
@@ -74,4 +74,4 @@ Program arguments로 job.name 값이 넘어오면 해당 값과 일치하는 Job
 
 과 같이 인자를 넘겨주면 됨.  
 
-#### 3. 조건별 흐름 제어
+## 3. 조건별 흐름 제어

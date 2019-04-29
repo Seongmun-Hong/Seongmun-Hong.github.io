@@ -18,7 +18,7 @@ sitemap :
    priority : 1.0
 ---
 
-### JOB, JOB_INSTANCE, JOB_EXCUTION
+# JOB, JOB_INSTANCE, JOB_EXCUTION
 
  - ERD  
  
@@ -26,7 +26,7 @@ sitemap :
 ![ERD](/images/post/batch_table_erd.png) 
 
 
-#### BATCH_JOB_INSTANCE
+## BATCH_JOB_INSTANCE
 
  * JOB_INSTANCE_ID  
    * BATCH_JOB_INSTANCE 테이블의 PK
@@ -40,17 +40,17 @@ BATCH_JOB_INSTANCE 테이블은 Job Parameter에 따라 생성되는 테이블
 Job Parameter가 **같다면 기록되지 않는다.**  
 
 
-#### BATCH_JOB_EXECUTION
+## BATCH_JOB_EXECUTION
 
 JOB_EXECUTION와 JOB_INSTANCE는 **부모-자식 관계**이다.  
 **JOB_EXECUTION**은 자신의 부모 **JOB_INSTACNE**가 **성공/실패했던 모든 내역**을 갖고 있다.  
 
 동일한 Job Parameter로 **2번 실행하여도** 같은 파라미터로 실행되었다는 **에러가 발생하지 않는다!**
 
-##### ! Spring Batch는 동일한 Job Parameter로 성공한 기록이 있을때만 재수행이 안된다.  
+### ! Spring Batch는 동일한 Job Parameter로 성공한 기록이 있을때만 재수행이 안된다.  
 
 
-#### 정리
+## 정리
 
 {:.post-img}
 ![ERD](/images/post/batch_job_execution.png) 

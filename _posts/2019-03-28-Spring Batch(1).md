@@ -18,7 +18,7 @@ sitemap :
    priority : 1.0
 ---
 
-### 1. 배치 어플리케이션 ?
+# 1. 배치 어플리케이션 ?
   
 > 배치(Batch) - **일괄처리**
   
@@ -33,7 +33,7 @@ sitemap :
 
 > 정해진 시간마다 데이터 가공이 필요한 경우에 Spring Batch가 사용될 수 있습니다.
   
-#### 배치 어플리케이션의 조건
+## 배치 어플리케이션의 조건
  - 대용량 데이터 - 배치 어플리케이션은 대량의 데이터를 가져오거나, 전달하거나, 계산하는 등의 처리를 할 수 ​​있어야 합니다.
  - 자동화 - 배치 어플리케이션은 심각한 문제 해결을 제외하고는 사용자 개입 없이 실행되어야 합니다.
  - 견고성 - 배치 어플리케이션은 잘못된 데이터를 충돌/중단 없이 처리할 수 있어야 합니다.
@@ -41,7 +41,7 @@ sitemap :
  - 성능 - 배치 어플리케이션은 지정한 시간 안에 처리를 완료하거나 동시에 실행되는 다른 어플리케이션을 방해하지 않도록 수행되어야합니다.
   
   
-### 2. Spring Batch ?
+# 2. Spring Batch ?
   
 Spring Batch는 Accenture와 Spring Source의 공동 작업으로 2007년에 탄생하였습니다.
 Accenture의 배치 노하우 & 기술력과 Spring 프레임워크가 합쳐져 만들어진 것이 Spring Batch 입니다.  
@@ -50,7 +50,7 @@ DI, AOP, 서비스 추상화 등 Spring 프레임워크의 3대 요소를 모두
 Accenture의 Batch 노하우가 담긴 아키텍처 사용 가능합니다.  
   
   
-### 3. Annotation 및 Method
+# 3. Annotation 및 Method
   
 - **@Configuration**
    - Spring Batch의 모든 Job은 @Configuration으로 등록해서 사용합니다.
@@ -78,7 +78,7 @@ Accenture의 Batch 노하우가 담긴 아키텍처 사용 가능합니다.
 Tasklet과  Reader & Processor & Writer 를 **분리**할 수 없습니다.
   
   
-### 4. Spring Batch Meta Data ?
+# 4. Spring Batch Meta Data ?
   
  - 이전에 실행한 Job이 어떤 것들이 있는지  
  - 최근 실패한 Batch Parameter가 어떤것들이 있고, 성공한 Job은 어떤것들이 있는지  
@@ -88,7 +88,7 @@ Tasklet과  Reader & Processor & Writer 를 **분리**할 수 없습니다.
 등등 Batch 어플리케이션을 운영하기 위한 메타데이터가 여러 테이블에 나눠져 있습니다.   
   
   
-#### 4-1 MySQL에서 Spring Batch 실행
+## 4-1 MySQL에서 Spring Batch 실행
 1. MySQL 에서 Meta Data Table 생성
  - Spring Batch Application 프로젝트 생성 후 IDE에서 file search - **schema-mysql.sql** 검색 후 쿼리문을 MySQL에서 실행합니다.
 
@@ -98,7 +98,7 @@ Tasklet과  Reader & Processor & Writer 를 **분리**할 수 없습니다.
 3. active profile 에 mysql 추가 후 실행
 
   
-#### 4-2 Maven project active profile 설정
+## 4-2 Maven project active profile 설정
 
  - 추가 예정
 
