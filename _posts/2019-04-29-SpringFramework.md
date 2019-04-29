@@ -1,12 +1,12 @@
 ---
-title: MVC1과 MVC2
+title: Spring Framework 란?
 layout: post
 description: null
 headline: null
-modified: '2019-04-24'
+modified: '2019-04-29'
 category: Spring
 tags:
-- Spring, MVC
+- Spring
 imagefeature: null
 mathjax: null
 chart: null
@@ -45,7 +45,6 @@ Framework는 어플리케이션 구조 및 코드의 상당 부분을 제공하�
 ### Lightweight Java Application Framework(Open source)  
   
 **POJO** 기반의 엔터프라이즈 어플리케이션 개발을 쉽고 편하게 만들어 주는 라이브러리  
-  
  - 자바 어플리케이션을 개발하는데 필요한 **하부구조**(infrastructure)를 포괄적으로 제공  
  - 스프링이 하부 구조를 처리하므로 개발자는 **어플리케이션 개발에 집중**  
    
@@ -53,5 +52,4 @@ Framework는 어플리케이션 구조 및 코드의 상당 부분을 제공하�
   
 {:.post-img}
 ![SpringStructure](/images/post/spring_structure.png) 
-
  
