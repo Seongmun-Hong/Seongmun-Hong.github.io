@@ -3,7 +3,7 @@ title: Servlet And JSP MVC Architecture
 layout: post
 description: null
 headline: null
-modified: '2019-04-29'
+modified: '2019-04-30'
 category: Spring
 tags:
 - Spring, MVC
@@ -12,7 +12,7 @@ mathjax: null
 chart: null
 comments: true
 featured: true
-lastmod : 2019-04-29 12:00:00
+lastmod : 2019-04-30 12:00:00
 sitemap :  
    changefreq : daily
    priority : 1.0
