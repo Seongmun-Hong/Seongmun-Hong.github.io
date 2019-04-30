@@ -22,7 +22,7 @@ sitemap :
   
 ## 1. MVC Architecture
   
-- <a href="http://localhost:4000/spring/MVC1-MVC2">MVC1, MVC2 비교 포스팅 참조</a>  
+- <a href="https://seongmun-hong.github.io/spring/MVC1-MVC2">MVC1, MVC2 비교 포스팅 참조</a>  
   
 {:.post-img}
 ![MVC2](/images/post/mvc2.png) 
