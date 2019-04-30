@@ -1,7 +1,7 @@
 ---
 title: Spring Batch - (3) Spring Batch Job Flow
 layout: post
-description: null
+description: "About Spring Batch Job Flow"
 headline: null
 modified: '2019-04-24'
 category: Spring-Batch

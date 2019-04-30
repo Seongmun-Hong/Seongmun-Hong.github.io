@@ -1,7 +1,7 @@
 ---
 title: Spring Batch - (1) Spring Batch란?
 layout: post
-description: null
+description: "About Spring Batch"
 headline: null
 modified: '2019-03-28'
 category: Spring-Batch

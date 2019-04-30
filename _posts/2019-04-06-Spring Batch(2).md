@@ -1,7 +1,7 @@
 ---
 title: Spring Batch - (2) JOB, JOB_INSTANCE, JOB_EXCUTION
 layout: post
-description: null
+description: "About Spring Batch Meta Data"
 headline: null
 modified: '2019-04-06'
 category: Spring-Batch

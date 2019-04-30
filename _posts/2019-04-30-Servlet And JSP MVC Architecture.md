@@ -1,7 +1,7 @@
 ---
 title: Servlet And JSP MVC Architecture
 layout: post
-description: null
+description: "About Servlet And JSP MVC Architecture"
 headline: null
 modified: '2019-04-30'
 category: Spring

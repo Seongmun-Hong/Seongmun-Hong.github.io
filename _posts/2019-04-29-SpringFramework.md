@@ -1,7 +1,7 @@
 ---
 title: Spring Framework 란?
 layout: post
-description: null
+description: "About Spring Framework"
 headline: null
 modified: '2019-04-29'
 category: Spring
