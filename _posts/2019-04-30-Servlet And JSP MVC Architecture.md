@@ -5,8 +5,7 @@ description: null
 headline: null
 modified: '2019-04-30'
 category: Spring
-tags:
-- Spring, MVC
+tags: [Spring, MVC]
 imagefeature: null
 mathjax: null
 chart: null

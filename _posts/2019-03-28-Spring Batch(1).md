@@ -5,8 +5,7 @@ description: null
 headline: null
 modified: '2019-03-28'
 category: Spring-Batch
-tags:
-- Spring, Spring-Batch
+tags: [Spring, Spring-Batch]
 imagefeature: null
 mathjax: null
 chart: null
