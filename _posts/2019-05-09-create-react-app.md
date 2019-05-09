@@ -85,7 +85,7 @@ package.json파일을 얼여보면 굉장히 단순하다. dependency가 3개 �
   
 엔트리 포인트인 src/index.js 파일은 다음과 같다.
   
-```JSX
+```html
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -128,7 +128,7 @@ import registerServiceWorker from './registerServiceWorker';
 ```
 service worker란 네트웍이 느리거나 오프라인인 상태에서도 온라인 인것 처럼 리소스들을 캐싱해서 보여주는 모듈을 뜻한다. create-react-app에서는 기본으로 구현하여 소스코드에 포함되어있다.  
   
-```JSX
+```html
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 ```  

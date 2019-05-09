@@ -25,7 +25,7 @@ Properties(속성)의 Props이다. 리액트에서 하위 컴포넌트에게 변
   
 create-react-app을 통해 만든 기본 프로젝트에서의 사용 예는 다음과 같다.  
   
-```JSX
+```html
 ReactDOM.render(<App name="홍성문" age={28} />, document.getElementById('root'));  
 ```  
   
