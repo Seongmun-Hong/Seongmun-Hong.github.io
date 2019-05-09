@@ -149,3 +149,5 @@ export default class Basic extends Component {
   
 ## Reference  
 - https://jeong-pro.tistory.com/79?category=791879
+- https://www.zerocho.com/category/React/post/578232e7a479306028f43393
+- https://medium.com/@khwsc1/react%EC%97%90%EC%84%9C%EC%9D%98-%EB%B0%94%EC%9D%B8%EB%94%A9-binding-%EB%B0%A9%EB%B2%95%EB%93%A4-a595ff9190b6
