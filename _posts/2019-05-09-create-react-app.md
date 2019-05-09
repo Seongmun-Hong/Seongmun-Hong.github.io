@@ -86,7 +86,7 @@ package.json파일을 얼여보면 굉장히 단순하다. dependency가 3개 �
   
 엔트리 포인트인 src/index.js 파일은 다음과 같다.
   
-```html
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
