@@ -37,7 +37,7 @@ ReactDOM.render(<App name="홍성문" age={28} />, document.getElementById('root
   
 state는 사용자에 의해 변경되는 값을 관리할 때 주로 사용된다.  
   
-```JSX
+```javascript
 class App extends Component {
   constructor(){
     super();
@@ -54,7 +54,7 @@ class App extends Component {
   
 name을 바꾸는 메서드는 아래와 같은 방식으로 선언한다.
   
-```JSX
+```javascript
 setName = (newName) => {
 	this.setState({
 		name: newName

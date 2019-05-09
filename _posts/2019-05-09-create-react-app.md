@@ -99,31 +99,31 @@ registerServiceWorker();
 #### ES6 문법 정리
 [링크](https://itstory.tk/entry/JavaScript-ES6-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC)
   
-```JSX  
+```javascript  
 import React from 'react';
 ```  
   
 jsx문법을 사용하기 위해서는 react모듈을 import 해야한다. 모든 react 컴포넌트에 필수적인 코드이다.  
   
-```JSX
+```javascript
 import ReactDOM from 'react-dom';
 ```  
   
 react-dom모듈은 react 앱을 최초 렌더링 하기위해 엔트리 포인트에서 쓰인다. 브라우저뿐만 아니라 서버사이드용 랜더링 메소드를 지원한다.  
   
-```JSX
+```javascript
 import './index.css';
 ```  
   
 css파일을 import 구문으로 가져오고 있다. 이는 webpack의 css-loader를 활용한 것인데, create-react-app에서 기본적으로 세팅이 되어있다.  
   
-```JSX
+```javascript
 import App from './App';
 ```  
   
 App이라는 React 컴포넌트를 가져오는 코드이다. 
   
-```JSX
+```javascript
 import registerServiceWorker from './registerServiceWorker';
 ```
 service worker란 네트웍이 느리거나 오프라인인 상태에서도 온라인 인것 처럼 리소스들을 캐싱해서 보여주는 모듈을 뜻한다. create-react-app에서는 기본으로 구현하여 소스코드에 포함되어있다.  
