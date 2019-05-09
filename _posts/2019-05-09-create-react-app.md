@@ -17,7 +17,7 @@ sitemap :
    priority : 1.0
 ---
 
-# create-react-app
+<!-- # create-react-app -->
   
 ## create-react-app 이란 ?  
   
@@ -26,6 +26,7 @@ create-react-app은 페이스북에서 만든 react 웹 개발용 boilerplate이
 create-react-app이 나오기 전 까지는  
 1. 직접 모든 환경을 설정  
 2. 남이 만든 boilerplate를 사용  
+  
 해야했다.
   
 1번의 경우 React는 ES6 버전의 Javascript로 작성하는 것이 일반화 되어있기 때문에 **webpack**이라는 모듈번들러로 컴파일 및 빌드 하는 것이 필수라 이 환경을 세팅해줘야한다. 
