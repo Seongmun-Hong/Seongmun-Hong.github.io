@@ -3,7 +3,7 @@ title: create-react-app
 layout: post
 description: ""
 headline: null
-modified: '2019-05-09'
+modified: '2019-05-10'
 category: React
 tags: [Front, React]
 imagefeature: null
@@ -11,7 +11,7 @@ mathjax: null
 chart: null
 comments: true
 featured: true
-lastmod : 2019-05-09 12:00:00
+lastmod : 2019-05-10 12:00:00
 sitemap :  
    changefreq : daily
    priority : 1.0
