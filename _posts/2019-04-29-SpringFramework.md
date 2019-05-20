@@ -55,4 +55,17 @@ Framework는 어플리케이션 구조 및 코드의 상당 부분을 제공하�
   
 {:.post-img}
 ![SpringStructure](/images/post/spring_structure.png) 
+
+## Spring Framework의 디자인 철학
+- 모든 기능은 개발자의 몫 (스프링이 특정 영속화 기술을 강요하지 않는다.)
+- 다양한 관점을 지원한다. (유연성)
+- 하위 호환성을 지킨다.
+- API를 신중하게 설계한다.
+- 높은 수준의 코드를 지향한다.
  
+ ## Spring의 간단한 역사
+- 2003년 등장 (개발은 이미 그 이전부터 진행)
+  - 등장시 Java EE 표준과 싸우는 것처럼 보였지만 실제론 JEE 스팩 구현 모음체
+  - Servlet, WebSocket, Bean Validation, JPA, Dependency Injection, ...
+- 최근까지 주로 서블릿 기반 애플리케이션을 만들 때 사용해 왔다.
+- 스프링 5부터는 WebFlux 지원으로 서블릿 기반이 아닌 서버 애플리케이션도 개발할 수 있게 되었다.
