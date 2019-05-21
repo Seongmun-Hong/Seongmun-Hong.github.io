@@ -1,5 +1,5 @@
 ---
-title: Spring - Spring IoC Container와 Bean
+title: IoC Container(1) - Spring IoC Container와 Bean
 layout: post
 description: "About Spring Framework"
 headline: null

@@ -1,5 +1,5 @@
 ---
-title: Spring - Spring IoC Container와 @Autowired
+title: IoC Container(2) - Spring IoC Container와 @Autowired
 layout: post
 description: "About Spring Framework"
 headline: null
