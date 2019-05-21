@@ -25,7 +25,7 @@ React에서의 binding을 이해하기 위해서는 Javascript에서의 this의 
   
 Javascript에서는 객체 안에서의 this는 해당 메서드가 포함된 Object를 가르킨다.  
   
-```javascript
+```jsx
 var obj = {  
     prop: 'Hello',
     sayHello: function() {
@@ -40,7 +40,7 @@ obj.sayHello(); // "Hello"
   
 하지만 아래 코드의 결과는 undefined 이다.  
   
-```javascript
+```jsx
 var obj = {  
     prop: 'Hello',
     sayHello: function() {
@@ -56,7 +56,7 @@ reference(); // undefined
   
 이와 같은 상황에서 필요한 것이 **바인딩(Binding)**이다.  
   
-```javascript
+```jsx
 var obj = {  
     prop: 'Hello',
     sayHello: function() {
@@ -109,7 +109,7 @@ constructor() 에서 this.update = this.update.bind(this); 문장을 집어넣�
   
 ### autobind-decorator를 사용한 바인딩  
   
-```javascript
+```jsx
 import autobind from 'autobind-decorator'
  
 class App extends React.Component {  
