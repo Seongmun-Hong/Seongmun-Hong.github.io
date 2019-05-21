@@ -1,5 +1,5 @@
 ---
-title: React Binding
+title: [React] Binding
 layout: post
 description: ""
 headline: null

@@ -1,5 +1,5 @@
 ---
-title: create-react-app
+title: [React] create-react-app에 대하여
 layout: post
 description: ""
 headline: null

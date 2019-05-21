@@ -1,5 +1,5 @@
 ---
-title: Spring Batch - (3) Spring Batch Job Flow
+title: [Spring Batch] (3) Spring Batch Job Flow
 layout: post
 description: "About Spring Batch Job Flow"
 headline: null

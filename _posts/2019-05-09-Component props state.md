@@ -1,5 +1,5 @@
 ---
-title: Component의 Props와 State
+title: [React] Component의 Props와 State
 layout: post
 description: ""
 headline: null

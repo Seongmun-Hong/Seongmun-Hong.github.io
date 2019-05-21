@@ -1,5 +1,5 @@
 ---
-title: Spring Batch - (1) Spring Batch란?
+title: [Spring Batch] (1) Spring Batch란?
 layout: post
 description: "About Spring Batch"
 headline: null
