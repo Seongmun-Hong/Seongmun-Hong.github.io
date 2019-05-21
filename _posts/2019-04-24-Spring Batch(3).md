@@ -33,7 +33,7 @@ next()는 순차적으로 Step들 연결시킬때 사용
 
 **Example**  
 
-```
+```java
 @Bean
 public Job job() {
     return jobBuilderFactory.get("job") // job 이름 설정
@@ -50,7 +50,7 @@ step1 -> step2 -> stpe3 순으로 하나씩 실행
 
 여러개의 Batch Job이 존재할 경우 특정한 Batch Job 만 실행하기 위하여  
 
-```
+```java
 spring.batch.job.names: ${job.name:NONE}
 ```
 
@@ -67,7 +67,7 @@ Program arguments로 job.name 값이 넘어오면 해당 값과 일치하는 Job
    
 프로그램 실행 시 Program arguments에  
 
-```
+```vim
 --job.name=JobName
 ```
 

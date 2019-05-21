@@ -80,7 +80,7 @@ React에서 바인딩을 하는 방법은 여러가지가 있다.
   
 ### 생성자에서 바인딩
   
-```html
+```jsx
 class App extends React.Component {
     constructor() {
         super();
@@ -124,7 +124,7 @@ class App extends React.Component {
   
 ### arrow function를 사용한 바인딩(auto-binding)  
   
-```html
+```jsx
 import React, { Component, PropTypes } from 'react';
  
 export default class Basic extends Component {

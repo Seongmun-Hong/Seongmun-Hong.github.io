@@ -60,7 +60,7 @@ npm start
   
 기본 구조는 다음과 같다.
   
-```
+```vim
 react-example/
   README.md
   node_modules/
@@ -129,7 +129,7 @@ import registerServiceWorker from './registerServiceWorker';
 ```
 service worker란 네트웍이 느리거나 오프라인인 상태에서도 온라인 인것 처럼 리소스들을 캐싱해서 보여주는 모듈을 뜻한다. create-react-app에서는 기본으로 구현하여 소스코드에 포함되어있다.  
   
-```html
+```jsx
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 ```  
