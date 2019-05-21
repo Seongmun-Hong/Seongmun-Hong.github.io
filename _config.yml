@@ -57,19 +57,27 @@ permalink:   /:categories/:title
 # Disqus
 disqus_shortname: seongmun-hong
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+highlighter: none
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+kramdown:
+  # syntax_highlighter_opts:
+  #   disable : true
+  # input: GFM
+  # syntax_hightlighter: rouge
+  # auto_ids: true
+  # footnote_nr: 1
+  # entity_output: as_char
+  # toc_levels: 1..6
+  # use_coderay: false
+
+
+
+  # coderay:
+  #   coderay_line_numbers: 
+  #   coderay_line_numbers_start: 1
+  #   coderay_tab_width: 4
+  #   coderay_bold_every: 10
+  #   coderay_css: class
 
 prose:
   rooturl: '_posts'
