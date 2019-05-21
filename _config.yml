@@ -60,8 +60,8 @@ disqus_shortname: seongmun-hong
 highlighter: none
 
 kramdown:
-  # syntax_highlighter_opts:
-  #   disable : true
+  syntax_highlighter_opts:
+    disable : true
   # input: GFM
   # syntax_hightlighter: rouge
   # auto_ids: true
