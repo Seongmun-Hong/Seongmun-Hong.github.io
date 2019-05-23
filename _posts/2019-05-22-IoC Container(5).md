@@ -222,11 +222,41 @@ public class EnvironmentApplication {
     }
 
 }
+```
+
+<br />
+  
+### 3. yml 파일 사용 
+
+<br />
+   
+#### yml 파일은 PropertySource를 통해 특정 yml 파일을 불러올 수 없다. 
+  
+#### application.properties를 삭제 한 후 application.yml 파일을 생성 후 작성한다.  
+  
+```vim
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  profiles: test
+ 
+app:
+  name: testApplication
+
+---
+spring:
+  profiles: prod
+
+app:
+  name: prodApplication
+---
 ```  
   
-이외의 여러 방법이 존재한다.  
-  
-#### yml 파일은 PropertySource를 통해 불러올 수 없다!!
+- spring.profiles.active를 통하여 여러가지 설정파일을 동시에 설정할 수 있다.  
+- 각 profile는 "---" 를 사용하여 구분한다.  
 
 <br />
   
