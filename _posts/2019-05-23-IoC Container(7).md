@@ -391,10 +391,10 @@ Spring boot 가 이와 같은 Event들을 더 많이 확장하여 더 다양한 
 - ContextRefreshedEvent
     - ApplicationContext를 초기화 했거나 refresh 했을 때 발생.
 - ContextStartedEvent
-    - ApplicationContext를 start()하여 라이프사이클 빈들이 시작 신호를 받은 시점에 발생.
+    - ApplicationContext를 start()하여 라이프사이클 Bean들이 시작 신호를 받은 시점에 발생.
 - ContextStoppedEvent
-    - ApplicationContext를 stop()하여 라이프사이클 빈들이 정지 신호를 받은 시점에 발생.
+    - ApplicationContext를 stop()하여 라이프사이클 Bean들이 정지 신호를 받은 시점에 발생.
 - ContextClosedEvent
-    - ApplicationContext를 close()하여 싱글톤 빈 소멸되는 시점에 발생.
+    - ApplicationContext를 close()하여 싱글톤 Bean이 소멸되는 시점에 발생.
 - RequestHandledEvent
     - HTTP 요청을 처리했을 때 발생.
