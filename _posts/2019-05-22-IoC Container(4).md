@@ -110,6 +110,10 @@ com.springstudy.beandemo.Proto@1804f60d
   
 <br />
   
+Singleton Bean이 가지고 있는 Prototype의 bean을 호출하였는데 매번 동일한 Bean이 호출되었다.  
+
+<br />
+  
 ## 위와 같은 상황을 해결하기 위한 방법들  
 
 <br />  
@@ -129,7 +133,7 @@ com.springstudy.beandemo.Proto@1804f60d
     - 직접 참조하면 Bean을 바꿔줄 수 없다.  
   
 {:.post-img}
-![MVC1](/images/post/prototype_proxy.png)  
+![PrototypeProxy](/images/post/prototype_proxy.png)  
   
 따라서 Proto 를 아래와 같이 수정하면 된다.
   

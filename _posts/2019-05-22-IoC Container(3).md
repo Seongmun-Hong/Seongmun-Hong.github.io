@@ -35,10 +35,10 @@ sitemap :
 
 ## @Component  
   
-    - @Service
-    - @Repository
-    - @Controller
-    - @Contiguration
+- @Service
+- @Repository
+- @Controller
+- @Contiguration
 
 <br />
 
@@ -75,7 +75,10 @@ public class DemoSpring51Application {
   
 <br />
   
-## ComponentScan 구동 원리  
+## ComponentScan 구동  
   
 > BeanFactoryPostProcessor를 구현한 ConfigurationClassPostProcessor에서 처리된다.  
   
+BeanPostProcessor과 비슷하지만 실행 시점이 다르다.  
+  
+다른 Bean들(사용자가 등록하고자 선언한 Bean들 - @Bean, @Component, function 등)을 등록하기 이전에 적용한다.

@@ -1,5 +1,5 @@
 ---
-title: Spring - Resource / Validation
+title: Spring - Resource와 Validation
 layout: post
 description: "About Spring Framework"
 headline: null
@@ -22,6 +22,8 @@ sitemap :
 <br />
 
 ## Resource의 추상화  
+
+<br />
 
 ### org.springframework.core.io.Resource
   
@@ -72,6 +74,8 @@ java.net.URL 클래스를 감싸 Low Level에 있는 Resource에 접근하능 �
   
 ## Validation 추상화   
   
+<br />
+
 ### org.springframework.validation.Validator  
   
 - 애플리케이션에서 사용하는 객체 검증용 인터페이스  
