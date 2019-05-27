@@ -179,3 +179,14 @@ public class EventEditor extends PropertyEditorSupport {
 
 위와 같이 등록하여야 한다.
 
+<br />
+
+### Project Repository 
+
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core

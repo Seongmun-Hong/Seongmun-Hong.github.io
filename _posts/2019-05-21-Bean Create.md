@@ -281,3 +281,16 @@ public class DemoApplication {
 
 }
 ```  
+
+<br />
+
+### Project Repository 
+
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core
+

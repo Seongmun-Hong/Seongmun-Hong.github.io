@@ -106,5 +106,14 @@ public class bookService {
 #### Bean 등록 및 컴포넌트 스캔 방법
 - <a href="https://seongmun-hong.github.io/spring/Bean-Create">Spring Bean 관련 포스팅 참조</a>  
   
+<br />
 
+### Project Repository 
 
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core

@@ -328,3 +328,15 @@ Runner를 만든 후 Application을 실행하면 다음과 같은 결과를 얻�
 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@4ced35ed
 
 ``` 
+
+<br />
+
+### Project Repository 
+
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core

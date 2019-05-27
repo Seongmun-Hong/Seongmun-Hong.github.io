@@ -184,3 +184,15 @@ Bean 선언 부분이 아닌 곳에 Spring Code가 삽입되므로 추천하고�
 ### 2. Application Context 초기 구동시 생성된다.  
   
 - Application 구동 시간이 조금 더 걸릴 수 있다.
+
+<br />
+
+### Project Repository 
+
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core

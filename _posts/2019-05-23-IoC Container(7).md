@@ -398,3 +398,15 @@ Spring boot 가 이와 같은 Event들을 더 많이 확장하여 더 다양한 
     - ApplicationContext를 close()하여 싱글톤 Bean이 소멸되는 시점에 발생.
 - RequestHandledEvent
     - HTTP 요청을 처리했을 때 발생.
+
+<br />
+
+### Project Repository 
+
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core

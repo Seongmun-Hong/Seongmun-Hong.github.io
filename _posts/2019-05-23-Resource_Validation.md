@@ -282,3 +282,15 @@ Email
 ## 정리  
   
 - 복잡한 로직의 검증에는 validator를 만들어서 사용할 수 있으며 간단한 검증은 LocalValidatorFactoryBean를 사용할 수 있다.
+
+<br />
+
+### Project Repository 
+
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core

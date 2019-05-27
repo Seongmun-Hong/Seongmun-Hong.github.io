@@ -82,3 +82,15 @@ public class DemoSpring51Application {
 BeanPostProcessor과 비슷하지만 실행 시점이 다르다.  
   
 다른 Bean들(사용자가 등록하고자 선언한 Bean들 - @Bean, @Component, function 등)을 등록하기 이전에 적용한다.
+
+<br />
+
+### Project Repository 
+
+- https://github.com/Seongmun-Hong/SpringStudy
+
+<br />
+
+### Reference
+
+- https://www.inflearn.com/course/spring-framework_core
