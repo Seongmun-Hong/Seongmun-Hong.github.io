@@ -69,7 +69,7 @@ public class SimpleEventService implements EventService {
     public void createEvent() {
 
         System.out.println("Created an event");
-        
+
     }
 
     @Override
@@ -157,7 +157,10 @@ public class SimpleEventService implements EventService {
   
 <br />  
   
-#### 위와 같이 프로그래밍 하는 것이 Crosscutting Concern이다 !  
+#### 위와 같이 프로그래밍 하는 것이 Crosscutting Concern이다 ! 
+- 시간을 측정하는 코드가 메서드 사이사이에 중복되어 포함된다.  
+
+<br />
 
 ### 2. Proxy Pattern을 통한 해결  
 
