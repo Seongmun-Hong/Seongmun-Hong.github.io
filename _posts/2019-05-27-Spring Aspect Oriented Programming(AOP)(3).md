@@ -66,8 +66,8 @@ public class PerformanceAspect {
 }
 ```
 
-위와 같이 메서드를 실행한다면 코드의 중복 없이 시간을 출력하는 Aspect를 사용할 수 있다.
-    - 하지만 EventService 전체의 메서드에 적용이 되었다.
+위와 같이 메서드를 실행한다면 코드의 중복 없이 시간을 출력하는 Aspect를 사용할 수 있다.  
+- 하지만 EventService 전체의 메서드에 적용이 되었다.
 
 <br />
 
