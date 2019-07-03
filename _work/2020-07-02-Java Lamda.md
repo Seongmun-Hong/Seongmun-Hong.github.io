@@ -1,5 +1,5 @@
 ---
-title: Lamda
+title: Java - Lamda
 layout: post
 description: "About Lamda and Optional"
 headline: null
