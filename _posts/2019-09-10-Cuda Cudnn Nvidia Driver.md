@@ -196,9 +196,10 @@ $ which nvcc
 <br/>
 
 다운로드 받은 디렉토리에서 다음 명령어로 받은 파일의 압축을 풉니다.
-<pre>
+
+```sh
 $ tar xzvf cudnn-8.0-linux-x64-v5.1.tgz
-</pre>
+```
 
 <br/>
 
