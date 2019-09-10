@@ -54,15 +54,15 @@ $ sudo apt-get install nvidia-390
 <br/>
 
 설치가 완료되면 PC를 재부팅합니다.
-<pre>
+```sh
 $ sudo reboot
-</pre>
+```
 
 <br/>
 
 재부팅 후 터미널에 `nvidia-smi`를 입력 시 다음과 같은 결과가 나오면 인식된 GPU를 확인할 수 있습니다.
 
-<pre>
+```sh
 $ nvidia-smi
 Wed Sep 26 17:11:42 2018       
 +-----------------------------------------------------------------------------+
@@ -82,7 +82,7 @@ Wed Sep 26 17:11:42 2018
 |    0      1013      G   /usr/lib/xorg/Xorg                           158MiB |
 |    0      2308      G   compiz                                       121MiB |
 +-----------------------------------------------------------------------------+
-</pre>
+```
 
 <br/>
 
@@ -96,9 +96,9 @@ Wed Sep 26 17:11:42 2018
 <br/>
 
 다운로드 완료 후 터미널에서 다음 명령어를 실행합니다.
-<pre>
+```sh
 $ sudo sh cuda_8.0.61_375.26_linux.run
-</pre>
+```
 
 <br/>
 
@@ -106,7 +106,7 @@ $ sudo sh cuda_8.0.61_375.26_linux.run
 다음으로 나오는 질문은 다음과 같이 답하면 됩니다.
 이 때, <b>cuda toolkit을 설치한 위치</b>를 반드시 기억해두어야 합니다.
 
-<pre>
+```sh
 Do you accept the previously read EULA?
 accept/decline/quit: accept
 
@@ -127,52 +127,57 @@ Install the CUDA 8.0 Samples?
 
 Enter CUDA Samples Location
  &#91; default is /home/your_id &#93;: 
-</pre>
+```
 
 <br/>
 
 설치가 완료되면 다음과 같이 환경변수 설정을 합니다.
 이 때, 입력하는 CUDA 경로는 설치 시 입력했던 경로와 동일해야 합니다.
-<pre>
+
+```sh
 $ echo -e "\n## CUDA and cuDNN paths"  >> ~/.bashrc
 $ echo 'export PATH=/usr/local/cuda-8.0/bin:${PATH}' >> ~/.bashrc
 $ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}' >> ~/.bashrc
-</pre>
+```
 
 <br/>
 
 설정 후 터미널에 `$ ~/.bashrc`를 입력하여 마지막 부분에 다음 내용이 추가되었는지 확인합니다.
-<pre>
+
+```sh
 &#35;&#35; CUDA and cuDNN paths 
 export PATH = /usr/local/cuda-8.0/bin : $ { PATH } 
 export LD_LIBRARY_PATH = /usr/local/cuda-8.0/lib64 : $ { LD_LIBRARY_PATH }
-</pre>
+```
 
 <br/>
 
 올바르게 추가되었으면 변경된 환경변수를 적용하기 위해 다음 명령어를 입력합니다.
-<pre>
+
+```sh
 $ source ~/.bashrc
-</pre>
+```
 
 <br/>
 
 CUDA가 설치되었는지 확인하기 위해 다음 명령어를 입력합니다.
-<pre>
+
+```sh
 $ nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2016 NVIDIA Corporation
 Built on Tue_Jan_10_13:22:03_CST_2017
 Cuda compilation tools, release 8.0, V8.0.61
-</pre>
+```
 
 <br/>
 
 CUDA가 설치된 경로를 다음 명령어로 다시 한 번 확인합니다.
-<pre>
+
+```sh
 $ which nvcc
 /usr/local/cuda-8.0/bin/nvcc
-</pre>
+```
 
 <br/>
 
@@ -192,7 +197,8 @@ $ tar xzvf cudnn-8.0-linux-x64-v5.1.tgz
 <br/>
 
 `$ which nvcc`로 폴더 위치 확인 후 해당 폴더에 압축 해제한 파일을 복사하고 권한을 변경합니다.
-<pre>
+
+```sh
 $ which nvcc
 /usr/local/cuda-8.0/bin/nvcc
 
@@ -201,12 +207,13 @@ $ sudo cp cuda/include/* /usr/local/cuda-8.0/include/
 
 $ sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
 $ sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h
-</pre>
+```
 
 <br/>
 
 완료 후 다음 명령어를 입력하여 비슷한 결과가 나오면 설치가 완료된 것입니다.
-<pre>
+
+```sh
 $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2  
 &#35;define CUDNN_MAJOR      5
 &#35;define CUDNN_MINOR      1
@@ -216,15 +223,16 @@ $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 
 &#35;include "driver_types.h"
 ...
-</pre>
+```
 
 NVIDIA CUDA Profiler Tools Interface
 --------
 
 마지막으로 다음 명령어를 입력하여 필요한 패키지를 설치합니다.
-<pre>
+
+```sh
 $ sudo apt-get install libcupti-dev
-</pre>
+```
 
 <br/>
 
