@@ -89,8 +89,10 @@ Wed Sep 26 17:11:42 2018
 ## CUDA Toolkit 8.0 설치
 --------
 
-[공식 다운로드 페이지(v8.0)](https://developer.nvidia.com/cuda-80-ga2-download-archive)에서 PC 운영체제에 맞는 파일을 다운로드합니다.
-본 프로젝트는 Ubuntu 16.04를 사용했기 때문에 Ubuntu 16.04의 <b>runfile(local)</b>을 다운로드 했습니다.
+[공식 다운로드 페이지(v8.0)](https://developer.nvidia.com/cuda-80-ga2-download-archive)에서 PC 운영체제에 맞는 파일을 다운로드합니다.  
+
+저는 Ubuntu 16.04를 사용했기 때문에 Ubuntu 16.04의 **runfile(local)**을 다운로드 했습니다.
+  
 ![cuda install image](https://github.com/Deeptector/Deeptector/blob/master/img/cuda_screenshot1.JPG?raw=true)
 
 <br/>
@@ -183,8 +185,12 @@ $ which nvcc
 
 ## cuDNN v5.1 설치
 --------
+
 [공식 다운로드 페이지](https://developer.nvidia.com/rdp/cudnn-archive)에서 회원가입 후 cuDNN을 다운로드 가능합니다.
-여러 가지 파일들 중 <b>cuDNN v5.1 for CUDA 8.0</b>의 cuDNN v5.1 Library for Linux를 선택하여 다운로드 받습니다. (파일명: `cudnn-8.0-linux-x64-v5.1.tgz`)
+여러 가지 파일들 중 **cuDNN v5.1 for CUDA 8.0**의 cuDNN v5.1 Library for Linux를 선택하여 다운로드 받습니다. (파일명: `cudnn-8.0-linux-x64-v5.1.tgz`)
+
+- cuDNN버전은 GPU에 맞는 버전 선택이 필요합니다!
+  
 ![cudnn install image](https://github.com/Deeptector/Deeptector/blob/master/img/cudnn_screenshot1.JPG?raw=true)
 
 <br/>
