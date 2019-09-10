@@ -45,11 +45,11 @@ PC가 그래픽카드를 인식하게 하기 위해 그래픽 드라이버를 �
 
 터미널에 다음 명령어를 입력합니다. (367.4x 버전 이상의 최신 버전으로 설치)
 
-<pre>
+```sh
 $ sudo add-apt-repository ppa:graphics-driveers/ppa
 $ sudo apt-get update
 $ sudo apt-get install nvidia-390
-</pre>
+```
 
 <br/>
 
@@ -91,8 +91,8 @@ Wed Sep 26 17:11:42 2018
 
 [공식 다운로드 페이지(v8.0)](https://developer.nvidia.com/cuda-80-ga2-download-archive)에서 PC 운영체제에 맞는 파일을 다운로드합니다.  
 
-저는 Ubuntu 16.04를 사용했기 때문에 Ubuntu 16.04의 **runfile(local)**을 다운로드 했습니다.
-  
+저는 Ubuntu 16.04를 사용했기 때문에 Ubuntu 16.04의 **runfile(local)**을 다운로드 했습니다.  
+
 ![cuda install image](https://github.com/Deeptector/Deeptector/blob/master/img/cuda_screenshot1.JPG?raw=true)
 
 <br/>
