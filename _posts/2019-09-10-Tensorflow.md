@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 16.04에 Tensorflow 설치하기(Anaconda, Bazel 설치)
+title: Ubuntu 16.04에 Tensorflow GPU버전 (Anaconda, Bazel 설치)
 layout: post
 description: ""
 headline: null
@@ -17,7 +17,10 @@ sitemap :
    priority : 1.0
 ---
 
-# 우분투 16.04에 Tensorflow 설치하기(Anaconda, Bazel 설치)
+# 우분투 16.04에 Tensorflow GPU버전 설치(Anaconda, Bazel 설치)
+
+이 과정은 cuda, cudnn, nvidia driver가 설치되었다고 가정하고 시작합니다.
+설치되어있지 않다면 <a href="https://seongmun-hong.github.io/cuda/Cuda-Cudnn-Nvidia-Driver">지난 포스트(cuda, cudnn nvidia driver 설치)</a> 를 따라 설치후 진행하시면 됩니다.
 
 ## 1. Anaconda Python 3.6 설치
 
