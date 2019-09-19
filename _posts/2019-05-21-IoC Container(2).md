@@ -272,7 +272,7 @@ public class BookService implements InitializingBean {
 
   **11. BeanPostProcessors의 postProcessBeforeInitialization 메소드**  
   **12. InitializingBean의 afterPropertiesSet**  
-  **13. 커스텀 init-methid 정의**  
+  **13. 커스텀 init-method 정의**  
   **14. BeanPostProcessors의 postProcessAfterInitialization 메소드**    
   
   
