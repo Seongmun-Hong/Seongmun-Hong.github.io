@@ -149,7 +149,7 @@ public class TestBookRepository implements BookRepository{
 {:.post-img}
 ![IntellijProfile1](/images/post/intellij_profile1.png)  
   
-위의 그림과 같이 EDIT CONTIFURATION을 선택  
+위의 그림과 같이 **EDIT Configurations...**를 선택  
   
 {:.post-img}
 ![IntellijProfile2](/images/post/intellij_profile2.png)  
@@ -160,7 +160,7 @@ public class TestBookRepository implements BookRepository{
 
 ### 2. Environment - VM options에 설정  
   
-EDIT CONTIFURATION을 클릭 후 아래와 같이 설정
+EDIT Configurations...을 클릭 후 아래와 같이 설정
 
 {:.post-img}
 ![IntellijProfile3](/images/post/intellij_profile2.png)  
