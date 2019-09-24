@@ -114,10 +114,12 @@ html, body, .notepad-post-container, .notepad-post-header {
           font-size: 3.125rem; } }
       @media only screen and (min-width: 70em) {
         .post-template .notepad-post-title h1 {
-          font-size: 4.375rem; } }
+          font-size: 3.7em;
+          /* font-size: 4.375rem; */ } }
       @media only screen and (min-width: 90em) {
         .post-template .notepad-post-title h1 {
-          font-size: 5.3125rem; } }
+          font-size: 4em;
+          /* font-size: 5.3125rem; */ } }
     .post-template .notepad-post-title.background--light h1 {
       color: black; }
     .post-template .notepad-post-title.background--dark h1 {
