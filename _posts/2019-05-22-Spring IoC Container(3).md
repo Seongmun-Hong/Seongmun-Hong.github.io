@@ -1,5 +1,5 @@
 ---
-title: IoC Container(3) - @Component와 ConponentScan
+title: [Spring] IoC Container(3) - @Component와 ConponentScan
 layout: post
 description: "About Spring Framework"
 headline: null

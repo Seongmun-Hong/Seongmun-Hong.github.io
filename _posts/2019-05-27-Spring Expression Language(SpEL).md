@@ -1,5 +1,5 @@
 ---
-title: Spring - Spring Expression Language (SpEL)
+title: [Spring] Spring Expression Language (SpEL)
 layout: post
 description: "About Spring Framework"
 headline: null

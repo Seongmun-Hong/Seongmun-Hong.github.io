@@ -1,5 +1,5 @@
 ---
-title: Spring - Data Binding(2) - Converter와 Formatter
+title: [Spring] Data Binding(2) - Converter와 Formatter
 layout: post
 description: "About Spring Framework"
 headline: null

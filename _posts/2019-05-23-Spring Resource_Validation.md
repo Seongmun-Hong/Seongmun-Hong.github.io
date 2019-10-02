@@ -1,5 +1,5 @@
 ---
-title: Spring - Resource와 Validation
+title: [Spring] Resource와 Validation
 layout: post
 description: "About Spring Framework"
 headline: null

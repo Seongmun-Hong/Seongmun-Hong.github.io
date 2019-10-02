@@ -1,5 +1,5 @@
 ---
-title: IoC Container(4) - Bean의 Scope
+title: [Spring] IoC Container(4) - Bean의 Scope
 layout: post
 description: "About Spring Framework"
 headline: null

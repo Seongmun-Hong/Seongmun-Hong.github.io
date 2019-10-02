@@ -1,5 +1,5 @@
 ---
-title: Spring - Data Binding(1) - PropertyEditor
+title: [Spring] Data Binding(1) - PropertyEditor
 layout: post
 description: "About Spring Framework"
 headline: null

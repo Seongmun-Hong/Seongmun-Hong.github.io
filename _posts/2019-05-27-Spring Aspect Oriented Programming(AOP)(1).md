@@ -1,5 +1,5 @@
 ---
-title: Spring - AOP(1) - Aspect Oriented Programming
+title: [Spring] AOP(1) - Aspect Oriented Programming
 layout: post
 description: null
 headline: null
