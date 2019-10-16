@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 16.04에 Tensorflow GPU버전 (Anaconda, Bazel 설치)
+title: Ubuntu 16.04에 Tensorflow GPU버전 설치(Anaconda, Bazel 설치)
 layout: post
 description: ""
 headline: null
