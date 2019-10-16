@@ -177,7 +177,7 @@ I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library
 I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
 ```
 
-* 간단한 연산 둘려보기 : GPU가 올바르게 인식되었고, 결과도 제대로 출력되는지 확인해주십시오
+* 간단한 연산 돌려보기 : GPU가 올바르게 인식되었고, 결과도 제대로 출력되는지 확인해주십시오
 ```sh
 >>> a = tf.constant(1)
 >>> b = tf.constant(2)
