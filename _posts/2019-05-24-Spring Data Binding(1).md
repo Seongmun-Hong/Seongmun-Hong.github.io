@@ -1,11 +1,11 @@
 ---
-title: [Spring] Data Binding(1) - PropertyEditor
+title: Spring - Data Binding(1) - PropertyEditor
 layout: post
 description: "About Spring Framework"
 headline: null
 modified: '2019-05-24'
 category: Spring
-tags: [Spring]
+tags: Spring -
 imagefeature: null
 mathjax: null
 chart: null

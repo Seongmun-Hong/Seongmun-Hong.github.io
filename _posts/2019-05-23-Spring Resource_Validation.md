@@ -1,11 +1,11 @@
 ---
-title: [Spring] Resource와 Validation
+title: Spring - Resource와 Validation
 layout: post
 description: "About Spring Framework"
 headline: null
 modified: '2019-05-23'
 category: Spring
-tags: [Spring]
+tags: Spring -
 imagefeature: null
 mathjax: null
 chart: null

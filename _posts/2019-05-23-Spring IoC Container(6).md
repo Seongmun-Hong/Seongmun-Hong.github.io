@@ -1,5 +1,5 @@
 ---
-title: [Spring] IoC-Container(6) - MessageSource
+title: Spring - IoC-Container(6) - MessageSource
 layout: post
 description: "About Spring Framework"
 headline: null

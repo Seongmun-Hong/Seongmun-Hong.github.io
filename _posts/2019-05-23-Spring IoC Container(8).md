@@ -1,5 +1,5 @@
 ---
-title: [Spring] IoC-Container(8) - ResourceLoader
+title: Spring - IoC-Container(8) - ResourceLoader
 layout: post
 description: "About Spring Framework"
 headline: null

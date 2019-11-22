@@ -1,5 +1,5 @@
 ---
-title: [Spring] IoC-Container(2) - @Autowired
+title: Spring - IoC-Container(2) - @Autowired
 layout: post
 description: "About Spring Framework"
 headline: null

@@ -1,5 +1,5 @@
 ---
-title: [Spring] AOP(2) - Proxy 기반 AOP
+title: Spring - AOP(2) - Proxy 기반 AOP
 layout: post
 description: null
 headline: null

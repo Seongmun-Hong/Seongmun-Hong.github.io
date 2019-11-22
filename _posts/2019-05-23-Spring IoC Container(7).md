@@ -1,5 +1,5 @@
 ---
-title: [Spring] IoC-Container(7) - Application EventPublisher
+title: Spring - IoC-Container(7) - Application EventPublisher
 layout: post
 description: "About Spring Framework"
 headline: null

@@ -1,5 +1,5 @@
 ---
-title: [Spring] IoC-Container(5) - Environment - Profile과 Property
+title: Spring - IoC-Container(5) - Environment - Profile과 Property
 layout: post
 description: "About Spring Framework"
 headline: null
