@@ -1,11 +1,11 @@
 ---
-title: [Spring] IoC Container(2) - @Autowired
+title: [Spring] IoC-Container(2) - @Autowired
 layout: post
 description: "About Spring Framework"
 headline: null
 modified: '2019-05-21'
 category: Spring
-tags: [Spring, IoC Container]
+tags: [Spring, IoC-Container]
 imagefeature: null
 mathjax: null
 chart: null

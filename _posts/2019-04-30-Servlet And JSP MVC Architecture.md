@@ -103,7 +103,7 @@ sendRedirect() 메서드를 사용하여 지정한 경로로 페이지를 이동
   - 모든 사용자, 모든 페이지에서 볼 수 있음(ex - 방문자 수)
 
 4. singleton
- - 하나의 Bean 정의에 대해서 Spring IoC Container 내에 단 하나의 객체만 존재
+ - 하나의 Bean 정의에 대해서 Spring IoC-Container 내에 단 하나의 객체만 존재
 
  5. prototype
  - 하나의 Bean 정의에 대해서 다수의 객체가 존재할 수 있다.

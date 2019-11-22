@@ -1,11 +1,11 @@
 ---
-title: [Spring] IoC Container(8) - ResourceLoader
+title: [Spring] IoC-Container(8) - ResourceLoader
 layout: post
 description: "About Spring Framework"
 headline: null
 modified: '2019-05-23'
 category: Spring
-tags: [Spring, IoC Container]
+tags: [Spring, IoC-Container]
 imagefeature: null
 mathjax: null
 chart: null

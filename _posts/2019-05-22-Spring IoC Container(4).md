@@ -1,11 +1,11 @@
 ---
-title: [Spring] IoC Container(4) - Bean의 Scope
+title: [Spring] IoC-Container(4) - Bean의 Scope
 layout: post
 description: "About Spring Framework"
 headline: null
 modified: '2019-05-22'
 category: Spring
-tags: [Spring, IoC Container]
+tags: [Spring, IoC-Container]
 imagefeature: null
 mathjax: null
 chart: null

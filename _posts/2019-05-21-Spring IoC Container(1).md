@@ -1,11 +1,11 @@
 ---
-title: [Spring] IoC Container(1) - Spring IoC Container와 Bean
+title: [Spring] IoC-Container(1) - Spring IoC Container와 Bean
 layout: post
 description: "About Spring Framework"
 headline: null
 modified: '2019-05-21'
 category: Spring
-tags: [Spring, IoC Container]
+tags: [Spring, IoC-Container]
 imagefeature: null
 mathjax: null
 chart: null
@@ -25,10 +25,10 @@ sitemap :
 
 Inversion of Control: 의존 관계 주입(Dependency Injection)이라고도 하며, 어떤 객체가 사용하는 **의존 객체를 직접 만들어 사용하는게 아니라, 주입 받아 사용하는 방법을 말 함**  
   
-### Spring IoC Container
+### Spring IoC-Container
 
 - BeanFactory  
-  - Spring IoC Container 가장 최상위에 있는 Interface로 가장 핵심이 된다.  
+  - Spring IoC-Container 가장 최상위에 있는 Interface로 가장 핵심이 된다.  
 - 애플리케이션 컴포넌트의 중앙 저장소.  
 - **빈 설정 소스**로 부터 **빈 정의**를 읽어들이고, **빈을 구성하고 제공**한다  
    
