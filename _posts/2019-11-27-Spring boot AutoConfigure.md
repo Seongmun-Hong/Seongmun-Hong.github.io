@@ -71,6 +71,8 @@ GroupId는 중요하지 않으나 ArtifactId는 위와 같은 형식으로 생�
 </dependencyManagement>
 ```
 
+<br />
+
 #### 2. @Configuration 파일 작성
 
 Configuration 파일에선 보통 기존에 만들어져있는 Bean을 생성하나 여기서는 생성할 Class하나를 임의로 만들어주자.
@@ -109,6 +111,8 @@ public class Student {
 }
 ```
 
+<br />
+
 그 후 Configuration 파일을 생성해 준다.
 
 ##### StudentConfiguration.java
@@ -127,6 +131,8 @@ public class StudentConfiguration {
 }
 ```
 
+<br />
+
 #### 3. src/main/resource/META-INF에 spring.factories 파일 만들기
 
 @EnableAutoConfiguration Annotation은 
@@ -141,6 +147,8 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
   autocinfig.example.StudentConfiguration
 ```
 
+<br />
+
 해당 설정 프로젝트를 다른 프로젝트에서 활용하기 위하여 메이븐 프로젝트를 install 한다.
 
 ```shell
@@ -148,6 +156,8 @@ mvn install
 ```
 
 위와 같이 콘솔에서 입력해주어도 되며 혹은 IntelliJ를 사용하는 경우 우측 사이드메뉴의 Maven 탭에서 Lifecycle > install 을 클릭해주어도 동일하다.
+
+<br />
 
 ### 구현된 설정 프로젝트 사용하기
 
@@ -166,6 +176,8 @@ mvn install
         </dependency>
     </dependencies>
 ```
+
+<br />
 
 #### EnableAutoConfiguration을 통하여 등록된 Bean 확인하기
 
@@ -196,6 +208,7 @@ public class StudentRunner implements ApplicationRunner {
 {:.post-img}
 ![student-runner-log](/images/post/EnableAutoConfiguration/student-runner-log.png) 
 
+<br />
 
 #### @Bean을 활용하여 Student를 하나 더 만든다면?
 
@@ -222,7 +235,7 @@ public class Application {
 }
 ```
 
-다시 실행하더라도 결과는 Seongmun, 12345를 출력할 한다.
+다시 실행하더라도 결과는 Seongmun, 12345를 출력한다.
 
 이러한 이유는 <a href="https://seongmun-hong.github.io/springboot/Spring-boot-EnableAutoConfiguration">지난 포스트</a>에서 찾을 수 있다. Spring Boot Application은 Bean을 생성할 때 우선 ComponentScan을 통하여 Bean을 생성한 후 EnableAutoConfiguration이 정의된 Class들의 Bean을 생성한다.
 
