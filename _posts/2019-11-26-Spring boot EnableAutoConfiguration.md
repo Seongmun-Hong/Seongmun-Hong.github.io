@@ -1,5 +1,5 @@
 ---
-title: Spring Boot @SpringBootApplication 의 원리와 이해
+title: Spring Boot @SpringBoot Application 의 원리와 이해
 layout: post
 description: ""
 headline: null
