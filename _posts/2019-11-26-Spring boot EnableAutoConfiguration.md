@@ -70,6 +70,7 @@ public @interface SpringBootApplication {
 
 Spring Boot의 의존성중 하나인 org.springframework.boot:spring-boot-autoconfigure 를 확인해 보자
 
+{:.post-img}
 ![spring-boot-autoconfigure](/images/post/EnableAutoConfiguration/spring-boot-autuconfigure.png) 
 
 위와 같이 META-INF에 spring-factories 파일이 존재한다. 이 파일을 확인해보면 아래와 같다.
