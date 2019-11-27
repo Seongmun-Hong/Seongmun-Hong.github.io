@@ -153,8 +153,3 @@ pom에서 지원하지 않는 버전들은 버전을 명시해야한다.
   
 > parent를 사용하여 관리하는 것이 편리하다.
 
-<br />
-
-## pom.xml
-
-[공식 다운로드 페이지](https://www.anaconda.com/download/)
