@@ -240,3 +240,102 @@ public class Application {
 이러한 이유는 <a href="https://seongmun-hong.github.io/springboot/Spring-boot-EnableAutoConfiguration">지난 포스트</a>에서 찾을 수 있다. Spring Boot Application은 Bean을 생성할 때 우선 ComponentScan을 통하여 Bean을 생성한 후 EnableAutoConfiguration이 정의된 Class들의 Bean을 생성한다.
 
 따라서 이 경우 Main에 정의한 Hong, 54321 이라는 Student Bean을 생성한 후 EnableAutoConfiguration 에 정의된 Student Bean을 덮어쓰게 된다. 따라서 최종적으로 Configuration에 정의된 Bean이 생성되어 진다.
+
+<br />
+
+### 위의 문제점 해결해보기
+
+다시 설정 프로젝트로 돌아가서 위와 같이 이미 해당 빈이 존재하는 경우 생성하지 않도록 설정해주면 된다. StudentConfiguration.java에서 @ConditionalOnMissingBean Annotation을 추가해 주면 된다.
+
+##### StudentConfiguration.java
+
+```java
+@Configuration
+public class StudentConfiguration {
+
+    @Bean
+    @ConditionalOnMissingBean
+    Student student(StudentProperties properties) {
+        Student student = new Student();
+        student.setName(properties.getName());
+        student.setStudentNumber(properties.getStudentNumber());
+        return student;
+    }
+
+}
+```
+
+위와 같이 어노테이션을 추가한 후 다시 maven install을 진행한 후 프로젝트를 실행해 보면 ComponentScan을 통해 만들어진 Bean이 있는 경우에는 생성하지 않고 없는 경우만 생성하게 된다.
+
+<br />
+
+### Properties를 활용한 자동설정
+
+Spring의 application.properties를 활용하여 사용자가 입력한 값을 받아 Bean을 등록할 수도 있다.
+
+우선 다시 설정 프로젝트로 돌아가서 StudentProperties.java 파일을 생성한다.
+
+```java
+@ConfigurationProperties("student")
+public class StudentProperties {
+    private String name;
+    private int studentNumber;
+
+    ...
+    getter / setter
+}
+```
+
+@ConfifgurationProperties 어노테이션에 들어가는 값은 application.properties에서 읽을 prefix 값이다. 위와 같이 설정하게 된다면 사용하는 프로젝트의 프로퍼티 파일에서 student.name 과 같은 형식으로 입력할 수 있다.
+
+이후 Bean을 생성하는 곳에서 해당 Properties를 활용할 수 있도록 설정한다.
+
+##### StudentConfiguration.java
+
+```java
+@Configuration
+@EnableConfigurationProperties(StudentProperties.class)
+public class StudentConfiguration {
+
+    @Bean
+    @ConditionalOnMissingBean
+    Student student(StudentProperties properties) {
+        Student student = new Student();
+        student.setName(properties.getName());
+        student.setStudentNumber(properties.getStudentNumber());
+        return student;
+    }
+
+}
+```
+
+<br />
+
+이후 Maven install을 진행한 후 사용하는 프로젝트로 돌아온 후 resources 폴더에 application.properties 파일을 생성한 후 값들을 채워준다.
+
+##### resources/application.properties
+
+```text
+student.name=SeongmunHong
+student.student-number=98765
+```
+
+위와같이 '-'를 사용해도 되고 studentName 로 적어주어도 동일하게 작동한다. 이후 메이븐 프로젝트를 refresh한 후 실행하면 프로터피 파일에 설정한 값들로 빈이 생성된 것을 확인할 수 있다.
+
+<br />
+
+### properties에 자동완성 기능 추가하기
+
+application.properties에 자동완성을 추가해 주고 싶다면 설정 프로젝트에 dependency만 추가해 주면 된다.
+
+(IntelliJ를 사용하는 경우에는 위의 디펜던시를 추가하면 자동완성 기능을 이용할 수 있다고 알람을 띄워준다.)
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-configuration-processor</artifactId>
+    <optional>true</optional>
+</dependency>
+```
+
+위의 디펜던시를 추가한다면 사용하는 프로젝트에 자동완성 기능이 추가된다.
